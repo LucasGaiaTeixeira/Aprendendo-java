@@ -1,0 +1,130 @@
+modulo 1:
+	quando colocar (.) na frente de qualquer objeto/ classe,  vai mostrar os métodos da classe/objetos
+	
+	sempre quando for criar uma variavel no java sem especificar o tipo da variavel, ex:
+		int, String, char, float, Double, boolean.
+		
+	Quando quiser criar um valor para uma variavel float utilizar o valor dela com um  (f) no final ver a classe (variaveis para entender).		
+	
+	
+	int < long = 2 variaveis de numero inteiras aonde int cabe uma certa quantidade de nnumeros e long cabe mais ainda do que int.
+	
+	
+	Constantes:
+		uma variavel que se declara uma vez e não pode ser mudada:
+			de declara primeiro com = final int vida_jogador = 10;
+			o valor dessa variavel não pode ser mudada no codigo =, talvez apenas rodando o programa.
+			
+			mas se não tiver o final pode ser mudado o valor da variavel após ser declarada.
+			
+			
+	Arrays:
+		criação de variaveis, mas sem ter que ficar declarando varias variaveis.
+		em vez de colocar nome_1, ou nome_2, etc.
+		usar como na classe (variaveis)
+		
+		arrays unidimencionais:
+			são arrays que tem uma unica dimensão que tem apenas um colchete
+			quando colocamos somente o nome da variavel e não especificar o valor da chave ele mostra na tela o valor do objeto.
+			
+		arrays multidimensionais:
+			são arrays com 2 ou varias dimensões que tem 2 ou mais colchetes podendo multiplicar o tanto de possiveis variaveis.
+			acontece o mesmo das variaveis unidimensionais, so printar o nome da variavel ele mostrar o objeto criado.
+			
+	
+	Condições:
+		verificar quantidades, nomes, letras, se e verdade ou não e se for ele executa uma linha de bloco, se não for tem de especificar com (else) a linha de bloco em para executar
+		if = se
+		else if = senão se
+		else = senão
+		
+		if para testar condições e necessário e sempre deve ter
+		else if para 	testar se o if a primeira condição for verdade ou mentira ira passar para esta forma de condição que testa se e verdadeira ou falsa.
+		else se nenhuma das condições anteriores for verdade ira cair no else e executará o bloco de condição sem testar se for verdade ou falso
+		
+		obs: else e nem o else if precisam estar la para o if funcionar, so o bloco if estar correto não apresentara erro no programa
+		obs 2: else if e bom para testar se uma condição e verdadeira ou falsa, passa parao else if, para que teste se o primeiro codigo a primeira linha de raciocinio não entre em confusão e pode ter sim varios if no codigo, mas para que não fique feio no código e tambem se a primeira condição for falsa, e a segunda for verdadeira e a terceira tbm, se vc quiser que so mostre a 2 condição sem o terceiro bloco else if seja executado tem que usar o else if para não executar o 3 bloco de condição.
+		obs: 3 else if tbm não são obrigatórios ter.
+		
+		> maior que
+		>= maior ou  igual á
+		< menor que
+		<= menor ou igual á
+		== igual á
+		!= diferente de
+		
+		boolean = true ou false
+		
+		obs: para verficar se a condição e verdadeira pode so colocar a variavel no if que ele automaticamente verifica se a condição e verdadeira.
+		
+		
+	Switch e case:
+		para que não precise fazer varios if e ficar feio o código ele ira fazer a mesma coisa e muitos mais funcional
+		ex: ir até a classe whitch e case
+		
+		obs: para cada case, necessita de um break para executar um break e não executar o resto deles.
+		obs2 : necessita de um default ao final de todos os case para que caso nenhum dos case for verdade entra no default e esse default seria o else, os case seriam if e else if.
+		
+		
+	Operacoes_avancadas_e_matematicas:
+		operações matematicas
+			+ somar
+			- subtrair
+			* multiplicar
+			/ dividir
+			% resto da divisão
+			
+			exponenciação tem que chamar uma biblioteca com math.pow
+			
+			&& uma condição e outra no mesmo if deve ser verdadeiro para 	o bloco deste if ser executado
+			
+			|| uma condição e outra ou mais de 2 condições precisa apenas umas ser verdeira para executar o bloco if
+			
+			!= se uma condição for verdaeira ela converte para falso e se for falso converte para verdadeiro
+			
+			obs: lembrando que uma condição executa seu bloco por ser verdadeira a condição e não pois qualquer outro motivo.
+			
+			&& = E
+			|| = OU
+			!= não
+					
+					
+		Loopings:
+			while = enquanto, for verdade oque for, variavel, condição, executar números até uma certa ordem, etc.
+			for =para que
+			do while = ve e executa
+			
+			ex: na classe Loopings
+			
+			while não diz certo quantas vezes tem que se repetir mas enquanto a condição for verdadeira ele ira repetir varias vezes
+			
+			for diz quantas vezes tem que se repetir, pois diz a quantidade ma variavel	 a condição e  o termo de aumentar ou diminiur o valor no final	
+			
+			do while ele excuta o bloco e depois faz a verificação, se for verdade ele executa o bloco novamente.
+
+
+
+
+
+
+
+
+
+
+
+Modulo 2:
+	programa de leitura dos dados dos usuario algo que venha de fora do programa
+	
+	primeiramente tem que se importar uma função de uma biblioteca no java
+		import java.util.Scanner;
+		
+		
+	para String: (nome do objeto scan).next(); ou .nextLine();
+	
+	para int(nome do objeto Scanner).nextInt();
+	
+	para Double( ;;  ;;).next.Double();
+	
+	para char(;; ;; ).next().charAt(0);
+	
+	para float(;; ;;).nextFloat();	
