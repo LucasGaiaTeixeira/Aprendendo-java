@@ -10,7 +10,9 @@ public class Programa_de_leitura_1 {
 		System.out.println("digite seu nome");
 		String nome = scan.next();
 		System.out.println(nome);
-		
+		if(nome.length() >= 5) {
+			System.out.println("nome contem 5 ou mais letras.");
+		}
 		
 		
 		

@@ -9,7 +9,8 @@ modulo 1:
 	
 	int < long = 2 variaveis de numero inteiras aonde int cabe uma certa quantidade de nnumeros e long cabe mais ainda do que int.
 	
-	
+			
+			
 	Constantes:
 		uma variavel que se declara uma vez e não pode ser mudada:
 			de declara primeiro com = final int vida_jogador = 10;
@@ -128,3 +129,9 @@ Modulo 2:
 	para char(;; ;; ).next().charAt(0);
 	
 	para float(;; ;;).nextFloat();	
+	
+	
+	obs: um tipo pode contem varios variaveis simuntaneas
+			ex:
+				int idade, peso, altura, etc.
+				String nome, cidade, estado, pais, etc.
