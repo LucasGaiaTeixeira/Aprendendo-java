@@ -135,3 +135,83 @@ Modulo 2:
 			ex:
 				int idade, peso, altura, etc.
 				String nome, cidade, estado, pais, etc.
+				
+				
+	import java.util.Random;
+		vai abrir a biblioteca random e vai pegar um numero aleatório.
+		usar como o scanne:
+			Random rand = new Random();
+			int numero = rand.nextInt(100); especifique a quatidade de numeros em que ele vai poder utilizar aleatóriamente, como esta 100 no ex ele vai pegar de 0 à 99 e armazenará na variavel.
+			
+			
+			
+			
+			
+			
+Modulo_3:
+	Orientação a objetos:
+		melhor organização do programa
+		Lógica mais facil de se trabalhar
+		uso de classes, metodos e atributos
+		profissional
+		melhor manuntenção do codigo
+		
+		
+		Objeto/classe - jogador/inimigo
+		*vida
+		*velocidade
+		*skill
+		
+		adicionarVida(), perderVida(), aumentarSkill().
+		
+	Criando classes em java:
+		podemos criar um objeto a partir de um molde que seria a classe mas mesmo que criemos 2 objetos de uma mesmca classe esse objetos compartilham dos mesmo metodos e atributos, eles são objetos diferentes.
+		podemos guardar o objeto em uma varaivel, quando usamos: Player player = new Player();
+			ou podemos so instacia-lo sem guardar os valores em uma variavel, ex: new Player().iniciarJogadora(); para iniciar algum metodo deste jogador ou inimigo, ou qualquer outro tipo de classe.
+		
+		
+	Tipos_de_classes_e_mais_sobre_OO	:
+		podemos criar uma subclasse dentro de uma classe, podemos instancia-la e usa-la como quiser, mas so podemos chama-la no método principal 	usando um metodo e criando um objeto dentro desse método, e podendo chamar o método pra dentro do método principal.
+		ex: na classe: Tipos_de_classes_e_mais_sobre_OO	
+		e tambem sobre isso existe, classes publicas, classes privadas e classes protegidas.
+		public class: pode ser mudado e mexido na classe em qualquer parte do codigo.
+		private class: so pode ser modificado os valores da classe na mesma classe.
+		protected class: so pode ser modificado valores na classe dentro de um mesmo pacote(package)
+		
+		abstract class(classe abstrata):
+		e uma classe abstrata, uma classe que não é possivel instancia-la mas podemos herdar dela todos os metodos e atributos.
+		usando extends ao lado da classe principal, essa classe abstrata vai servir de pai, pegando valores e metodos para a classe filha que no caso e a classe principal.
+		ela pode ser chamando com um metodo na clase principal, e colocando o metodo ou atributo da classe abstrata.
+			
+		É uma classe que se usa de um modo muito especifico, pois, classes publicas pode usar o mesmo extends sem ser uma classe abstrata.
+		e para chamar os metodos, para uma classe abstrata exclusivamente usar uma classe abstrata, sem pode criar um objeto com essa classe abstrata, assim como extender uma classe publica, é so criar um metodo na classe main, e chamar o metodo de outra classe e chamar o metodo no metodo principal.
+		
+		this:
+			faz referência a classe ou objeto, da mesma classe, pode ser tambem se referenciar aos atributos da classe.
+			
+	*Interface: ex Interfacesss
+			para usar o interface, criar a classe inteface, o eclipse ou no intelij
+			E para usar o interface, pode-se usar o implements para utilizar
+			
+			Quando criar algum metodo ou atributo na interface é obrigatatório chamar para o metodo a classe principal.
+			Quando criamos um metodo na classe interface, se ele não tiver nenhuma função no metodo como uma variavel nos parametros, ele precisa de estar abstract no metodo, como no ex da classe: Minha_inteface.
+			
+	*Tudo sobe métodos:
+		Existem metodos publicos privados e protegidos
+		publico = ele pode acesar de quaisquer classe esse metodo
+		private = o metodo apenas pode ser acessada pela mesma classe
+		protect = o metodo pode ser acessado apenas do mesmo packge
+		
+		Static:
+			um metodo estatico:
+				é um metodo por fora da classe, mesmo estando contido nela, apenas é possivel utiliza-la usando um objeto da classe.
+				é um metodo independente.
+				
+			
+			
+Anotações Gerais:
+	Para mudar algum nome de classe  ja criada, apertaro botão direito na classe que quer mudar o nome e ir no refactor, ai la, voce pode mudar o nome.	
+			
+			
+		
+								
